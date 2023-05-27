@@ -1,7 +1,14 @@
-
-
-
-class Node
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    class Node
 {
     constructor()
     {
@@ -60,28 +67,13 @@ osman.children.push(newNode("Mohamed"));
 osman.children.push(newNode("Omar"));
 osman.children.push(newNode("Abdighafar"));
 osman.children.push(newNode("Ali"));
-osman.children.push(newNode("Abdurauf"));
-
-var abdirahman = osman.children[0];
-abdirahman.children.push(newNode("Apachina"));
-
-var aidarus = osman.children[1];
-aidarus.children.push(newNode("Mohamed"));
-aidarus.children.push(newNode("Abubakar"));
-aidarus.children.push(newNode("Abdulghani"));
-
-var mohamed = osman.children[2];
-mohamed.children.push(newNode("Ahmed"));
-mohamed.children.push(newNode("Zubeir"));
-mohamed.children.push(newNode("Salman"));
-
-var omar = osman.children[3];
-omar.children.push(newNode("Mohamed"));
-omar.children.push(newNode("Osman"));
-omar.children.push(newNode("Abirahman"));
-
-
 
 console.log("Level order traversal " +
                        "Before Mirroring \n");
-LevelOrderTraversal(osman);
+LevelOrderTraversal(root);
+
+
+
+  </script>
+</body>
+</html>
